@@ -1,0 +1,11 @@
+main: org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin
+name: ${name}-Spigot
+author: ${author}
+website: ${url}
+version: ${version}
+softdepend: ["ViaVersion", "floodgate"]
+api-version: 1.13
+commands:
+  geyser:
+    description: The main command for Geyser.
+    usage: /geyser <subcommand>
